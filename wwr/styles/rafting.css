@@ -135,6 +135,7 @@
     vertical-align: middle;
   }
   
+  /* Responsive para celulares */
   @media (max-width: 800px) {
     .hero h1 {
       font-size: 2rem;
@@ -156,3 +157,4 @@
       padding: 0 8px;
     }
   }
+  
