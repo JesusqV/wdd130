@@ -8,62 +8,98 @@
     <meta name="description" content="About our rafting company, history, and adventure opportunities.">
     <meta name="author" content="Alvaro Jesus Quezada Valverde">
     <link rel="stylesheet" href="styles/rafting.css">
-
 </head>
 
 <body>
     <header>
-        <img src="/wwr/images/logor.jpg" alt="Rafting Company Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+        <div class="header-grid">
+            <img src="images/logor.jpg" alt="Rafting Company Logo" class="header-logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
     </header>
     <main>
-        <div class="hero">
-            <img src="/wwr/images/herobanner.jpg" alt="Rafting Hero Banner">
-            <h1>We are RAPIDS!</h1>
-            <article>
-                Embark on an adventure that will change the way you see nature.
-                Our rafting company invites you to feel the power of the river, the coolness of the water, and the
-                thrill of each whirlpool on a journey full of adrenaline and fun. It doesn't matter if you're a beginner
-                or an expert: we have certified guides, top-notch safety equipment, and routes adapted for all levels.
-                <img src="/wwr/images/heroimage.jpg" alt="Rafting Adventure Group">
-            </article>
-        </div>
-        <section>
-            <h2>History</h2>
-            <p>
-                Our story began with a group of friends who were passionate about rivers and mountains, who found in
-                rafting not only an adventure, but a way to connect with nature and with people. What started as an
-                outing among friends turned into a life project: to create a company dedicated to sharing that
-                excitement with everyone. Over time, we have grown in terms of routes, team, and experience, but we
-                maintain the same spirit that drove us from day one: paddling together toward adventure.
-            </p>
+        <!-- HERO Section -->
+        <section class="hero">
+            <div class="hero-text">
+                <h1>We are RAPIDS!</h1>
+                <p>
+                    Embark on an adventure that will change the way you see nature.
+                    Our rafting company invites you to feel the power of the river, the coolness of the water, and the
+                    thrill of each whirlpool on a journey full of adrenaline and fun. It doesn't matter if you're a
+                    beginner or an expert: we have certified guides, top-notch safety equipment, and routes adapted for
+                    all levels.
+                </p>
+            </div>
+            <img src="images/herobanner.jpg" alt="Rafting Hero Banner" class="hero-img">
         </section>
-        <section>
+
+        <!-- HISTORY Section -->
+        <section class="history">
+            <h2>History</h2>
+            <div class="history-content">
+                <div class="history-block">
+                    <p>
+                        Our story began with a group of friends who were passionate about rivers and mountains, who
+                        found in rafting not only an adventure, but a way to connect with nature and with people. What
+                        started as an outing among friends turned into a life project: to create a company dedicated to
+                        sharing that excitement with everyone.
+                    </p>
+                </div>
+                <div class="history-icon">
+                    <img src="/wwr/images/history.jpg" alt="Rafting History Icon">
+                </div>
+                <div class="history-block">
+                    <p>
+                        Over time, we have grown in terms of routes, team, and experience, but we maintain the same
+                        spirit that drove us from day one: paddling together toward adventure.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ADVENTURE Section -->
+        <section class="adventures">
             <h2>Adventure Awaits You</h2>
-            <p>
-                Experience the thrill of the rapids with us! Whether you’re seeking a family outing or a heart-pounding
-                challenge, we offer unforgettable river adventures for all skill levels.
-            </p>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/rapid1.jpg" alt="Los Dientes del Diablo">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rapid2.jpg" alt="Big Mallard">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rapid3.jpg" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rapid4.jpg" alt="El Encanto">
+                    <figcaption>El Encanto</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rapid5.jpg" alt="Wild Rapids">
+                    <figcaption>Wild Rapids</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <footer>
-        <p>© 2025 Rafting Company | Alvaro Jesus Quezada Valverde</p>
-        <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="/wwr/images/fbpng.png" alt="Facebook Icon">
-            </a>
-            <a href="https://linkedin.com">
-                <img src="/wwr/images/linkelinpng.png" alt="LinkedIn Icon">
-            </a>
-            <a href="https://instagram.com">
-                <img src="/wwr/images/instagrampng.png" alt="Instagram Icon">
-            </a>
-        </nav>
+        <div class="footer-content">
+            <p>
+                ©2025 Rafting Company | Alvaro Jesus Quezada Valverde
+                <span class="footer-socials">
+                    <a href="https://facebook.com"><img src="images/fbpng.png" alt="Facebook"></a>
+                    <a href="https://linkedin.com"><img src="images/linkelinpng.png" alt="LinkedIn"></a>
+                    <a href="https://instagram.com"><img src="images/instagrampng.png" alt="Instagram"></a>
+                </span>
+            </p>
+        </div>
     </footer>
 </body>
 
