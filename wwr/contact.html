@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Contact White Water Rafting Company. Send us your inquiries, reservation questions, or website suggestions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - White Water Rafting Company</title>
+    <link rel="stylesheet" href="../styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="../images/logo.png" alt="White Water Rafting Company Logo" height="60">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>White Water Rafting Company</h1>
+            <address>
+                123 Main River Street<br>
+                Kolob, California<br>
+                +1 999 999 9999<br>
+                <a href="mailto:info@whitewater.com">info@whitewater.com</a>
+            </address>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d-122.41941548468124!3d37.77492977975927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e2e1f1e1f1b%3A0x8e1e1e1e1e1e1e1e!2sMain%20River%20Street%2C%20Kolob%2C%20CA!5e0!3m2!1sen!2sus!4v1600000000000"
+                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <fieldset>
+                    <legend>Message Purpose:</legend>
+                    <label>
+                        <input type="radio" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <label>
+                    <input type="checkbox" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+                <br>
+                <button type="submit" class="submit-btn">Get in Touch!</button>
+            </form>
+        </section>
+        <section>
+            <h2>We Are Here to Serve You</h2>
+            <div class="profiles">
+                <figure>
+                    <img src="../images/employee1.jpg" alt="Employee 1" width="100">
+                    <figcaption>Jane Doe - Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/employee2.jpg" alt="Employee 2" width="100">
+                    <figcaption>John Smith - Safety Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/employee3.jpg" alt="Employee 3" width="100">
+                    <figcaption>Emily Chen - Customer Service</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Footer Content including Social Media icons/links</p>
+        <div class="social-icons">
+            <a href="#"><img src="../images/facebook.png" alt="Facebook" width="24"></a>
+            <a href="#"><img src="../images/twitter.png" alt="Twitter" width="24"></a>
+            <a href="#"><img src="../images/instagram.png" alt="Instagram" width="24"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
