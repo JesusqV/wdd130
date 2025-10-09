@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+}
+
+nav {
+    background: #002080;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1.2rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    align-items: flex-start;
+    padding: 0 2rem;
+}
+
+.profile-aside {
+    background: #f0f3f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+    padding: 1.1rem 1rem 2rem 1rem;
+    width: 330px;
+    text-align: center;
+}
+
+.profile-aside img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.profile-aside h2 {
+    font-size: 1.6rem;
+    color: #222;
+    margin: 0.4rem 0 0.6rem 0;
+}
+
+.profile-aside p {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 0.6rem;
+}
+
+.profile-section {
+    flex: 1;
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.profile-section h1 {
+    color: #357ae8;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2.1rem;
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 0.5rem;
+}
+
+.bio-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+
+.bio-box > div {
+    flex: 1;
+}
+
+.profile-img {
+    width: 120px;
+    border-radius: 7px;
+    border: 2px solid #e2e2e2;
+    margin-top: 0.5rem;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.10);
+}
+
+.temple-list ul {
+    margin-top: 1.2rem;
+    padding-left: 1.1rem;
+}
+
+.temple-list li {
+    margin-bottom: 0.4rem;
+}
+
+.temple-list a {
+    color: #2a4fa2;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0 0.5rem 0;
+    background: #e2e2e2;
+    color: #222;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
